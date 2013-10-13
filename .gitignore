@@ -1,7 +1,6 @@
 # Ignore The following directories / file extensions
-*/Library/*
-*/Builds/*
-
+Library
+Builds
 Temp
 
 *.DS_Store
