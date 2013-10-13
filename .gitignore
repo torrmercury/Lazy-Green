@@ -1,5 +1,12 @@
+# Ignore The following directories / file extensions
+*/Library
+*/Builds
+
+Temp
+
+*.DS_Store
 *.csproj
-*/Library/
-*/Builds/
-*/Temp/
+*.unityproj
 *.sln
+*.pidb
+*.userprefs
