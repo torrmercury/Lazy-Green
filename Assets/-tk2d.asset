@@ -727,6 +727,31 @@ MonoBehaviour:
     loadable: 0
     assetName: 
     version: 3
+  - name: Buildings
+    spriteCollectionGUID: d2af1589bf7651048af4104be49fd8d0
+    spriteCollectionDataGUID: 62c9f9b003865804680c2e23b27c874f
+    spriteNames:
+    - Lazy Green - House0005
+    - Lazy Green - House0004
+    - Lazy Green - House0003
+    - Lazy Green - House0002
+    - Lazy Green - House0007
+    spriteTextureGUIDs:
+    - 20feb02fde98d6048b7a1e48a6a32d4f
+    - 222a990fcda57e5428b06b0d3eb92eba
+    - 8e51080d082cd9740b04eb6230804237
+    - 8f39bcf812020ef4186ccb62df0690a6
+    - 87023d0c46c707a47a7c5e80ea309550
+    spriteTextureTimeStamps:
+    - 1399601263.73382
+    - 1399601263.73182
+    - 1399601263.72982
+    - 1399601263.72782
+    - 1398722426
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
   - name: Character
     spriteCollectionGUID: 183216a4a66f24a4ba06cd3a97a62c25
     spriteCollectionDataGUID: 5af99b95049f6a24fb28bdd659539dbd
@@ -745,28 +770,6 @@ MonoBehaviour:
     - 1398539412
     - 1398539412
     - 1398539412
-    managedSpriteCollection: 0
-    loadable: 0
-    assetName: 
-    version: 3
-  - name: Buildings
-    spriteCollectionGUID: d2af1589bf7651048af4104be49fd8d0
-    spriteCollectionDataGUID: 62c9f9b003865804680c2e23b27c874f
-    spriteNames:
-    - Lazy Green - House0005
-    - Lazy Green - House0004
-    - Lazy Green - House0003
-    - Lazy Green - House0002
-    spriteTextureGUIDs:
-    - 20feb02fde98d6048b7a1e48a6a32d4f
-    - 222a990fcda57e5428b06b0d3eb92eba
-    - 8e51080d082cd9740b04eb6230804237
-    - 8f39bcf812020ef4186ccb62df0690a6
-    spriteTextureTimeStamps:
-    - 1399601263.73382
-    - 1399601263.73182
-    - 1399601263.72982
-    - 1399601263.72782
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

@@ -12,8 +12,14 @@ public class bearAnim : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0)
+        if (Input.GetAxis("Horizontal") > 0)
         {
+            transform.localScale = new Vector3(1, 1, 1);
+            anim.Play("walk");
+        }
+        else if (Input.GetAxis("Horizontal") < 0)
+        {
+            transform.localScale = new Vector3(-1,1,1);
             anim.Play("walk");
         }
         else
