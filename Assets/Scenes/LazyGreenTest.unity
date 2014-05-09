@@ -526,6 +526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text_here: text
   location_here: 
+  gui_show: 0
 --- !u!4 &344871849
 Transform:
   m_ObjectHideFlags: 0
