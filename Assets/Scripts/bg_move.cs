@@ -3,7 +3,7 @@ using System.Collections;
 
 public class bg_move : MonoBehaviour {
 
-	public int speed;
+	public float speed;
 	// Use this for initialization
 	void Start () {
 	
