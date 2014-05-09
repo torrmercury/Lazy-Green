@@ -2,6 +2,7 @@
 Library
 Builds
 Temp
+TK2DROOT
 
 *.DS_Store
 *.csproj
