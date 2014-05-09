@@ -11,7 +11,7 @@ public class bg_move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float translation = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+		float translation = Input.GetAxis("Horizontal") * -speed * Time.deltaTime;
 		transform.Translate(translation, 0, 0);
 	}
 }
