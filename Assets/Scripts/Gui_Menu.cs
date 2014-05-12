@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Gui_Menu : MonoBehaviour {
+public class Gui_Menu : Stats {
 
 	public string text_here;
 	public string location_here;
@@ -42,23 +42,23 @@ public class Gui_Menu : MonoBehaviour {
 			GUI.Box (new Rect (15, 30, 475, 600), location_here);
 
 			// Making buttons
-			if (GUI.Button (new Rect (25, 80, 225, 125), "Button 1")) {
+			if (GUI.Button (new Rect (25, 350, 225, 125), "Button 1")) {
 					Debug.Log ("button 1");
 			}
 			// Make the second button.
-			if (GUI.Button (new Rect (25, 215, 225, 125), "Button 2")) {
+			if (GUI.Button (new Rect (25, 485, 225, 125), "Button 2")) {
 					Debug.Log ("button 2");
 			}
 			// Repeat
-			if (GUI.Button (new Rect (255, 80, 225, 125), "Button 3")) {
+			if (GUI.Button (new Rect (255, 350, 225, 125), "Button 3")) {
 					Debug.Log ("button 3");
 			}
 			// Repeat
-			if (GUI.Button (new Rect (255, 215, 225, 125), "Button 4")) {
+			if (GUI.Button (new Rect (255, 485, 225, 125), "Button 4")) {
 					Debug.Log ("button 4");
 			}
 			//Text Area
-			GUI.Box (new Rect (20, 350, 460, 270), text_here);
+			GUI.Box (new Rect (25, 70, 460, 270), text_here);
 
 		}
 	}

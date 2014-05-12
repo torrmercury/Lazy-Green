@@ -29,6 +29,10 @@ MonoBehaviour:
     dataGUID: 
     managed: 0
     loadable: 0
+  - assetGUID: cc0c976f67cb91046bb280033f8f91d3
+    dataGUID: 
+    managed: 0
+    loadable: 0
   fontIndex:
   - assetGUID: 063b15d80dbb4604d890600a64c79cf8
     dataGUID: e7a6b09a73c6b2b4f8060096ddbd3b5e
@@ -747,7 +751,7 @@ MonoBehaviour:
     - 1399601263.73182
     - 1399601263.72982
     - 1399601263.72782
-    - 1398722426
+    - 1399808641.25005
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
